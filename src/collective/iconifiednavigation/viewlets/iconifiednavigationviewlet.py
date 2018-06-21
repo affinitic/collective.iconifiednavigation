@@ -1,4 +1,5 @@
 # encoding: utf-8
+import os
 
 from Products.Five.browser.pagetemplatefile import ViewPageTemplateFile
 from plone import api
@@ -24,5 +25,10 @@ class IconifiedNavigationViewlet(GlobalSectionsViewlet):
 
         obj = api.portal.get_navigation_root(self.context).unrestrictedTraverse(icon_path)
         if obj.navigation_icon:
-            return url + '/@@images/navigation_icon'
+            img_details = {}
+            name, ext = os.path.splitext(obj.navigation_icon.filename)
+            img_details["path"] = url + '/@@images/navigation_icon'
+            img_details["ext"] = ext
+            img_details["data"] = obj.navigation_icon.data
+            return img_details
         return None
