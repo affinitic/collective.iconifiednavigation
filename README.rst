@@ -6,25 +6,14 @@
 collective.iconifiednavigation
 ==============================
 
-Tell me what your product does
+This products allows your users to define icons (images or SVG) on contents to display them in ``portal_tabs`` next to titles.
+
 
 Features
 --------
 
-- Can be bullet points
-
-
-Examples
---------
-
-This add-on can be seen in action at the following sites:
-- Is there a page on the internet where everybody can see the features?
-
-
-Documentation
--------------
-
-Full documentation for end users can be found in the "docs" folder, and is also available online at http://docs.plone.org/foo/bar
+- The behavior can be defined on any content type
+- SVG are specifically handled
 
 
 Translations
@@ -32,7 +21,7 @@ Translations
 
 This product has been translated into
 
-- Klingon (thanks, K'Plai)
+- French
 
 
 Installation
@@ -56,17 +45,21 @@ Contribute
 
 - Issue Tracker: https://github.com/collective/collective.iconifiednavigation/issues
 - Source Code: https://github.com/collective/collective.iconifiednavigation
-- Documentation: https://docs.plone.org/foo/bar
-
-
-Support
--------
-
-If you are having issues, please let us know.
-We have a mailing list located at: project@example.com
 
 
 License
 -------
 
 The project is licensed under the GPLv2.
+
+
+Credits
+-------
+
+This package was developed by `Affinitic team <https://github.com/affinitic>`_.
+
+.. image:: http://www.affinitic.be/affinitic_logo.png
+   :alt: Affinitic website
+   :target: http://www.affinitic.be
+
+``collective.iconifiednavigation`` is licensed under GNU General Public License, version 2.
