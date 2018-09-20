@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-1.0a2 (unreleased)
+1.0a2 (2018-09-20)
 ------------------
 
 - Avoid error when there is no navigation icon
