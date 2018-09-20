@@ -23,12 +23,15 @@ class IconifiedNavigationViewlet(GlobalSectionsViewlet):
         if not icon_path:
             return None
 
-        obj = api.portal.get_navigation_root(self.context).unrestrictedTraverse(icon_path)
-        if obj.navigation_icon:
-            img_details = {}
-            name, ext = os.path.splitext(obj.navigation_icon.filename)
-            img_details["path"] = url + '/@@images/navigation_icon'
-            img_details["ext"] = ext
-            img_details["data"] = obj.navigation_icon.data
-            return img_details
-        return None
+        nav_root = api.portal.get_navigation_root(self.context)
+        obj = nav_root.unrestrictedTraverse(icon_path)
+        icon = getattr(obj, 'navigation_icon', None)
+        if not icon:
+            return
+
+        img_details = {}
+        name, ext = os.path.splitext(icon.filename)
+        img_details["path"] = url + '/@@images/navigation_icon'
+        img_details["ext"] = ext
+        img_details["data"] = icon.data
+        return img_details
