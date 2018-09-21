@@ -3,7 +3,7 @@
   xmlns:i18n="http://xml.zope.org/namespaces/i18n"
   tal:define="portal_tabs view/portal_tabs"
   tal:condition="portal_tabs"
-  i18n:domain="plone">
+  i18n:domain="collective.iconifiednavigation">
 
   <p class="hiddenStructure" i18n:translate="heading_sections">Navigation</p>
   <nav class="plone-navbar" id="portal-globalnav-wrapper">
@@ -11,7 +11,7 @@
       <div class="plone-navbar-header">
         <button type="button" class="plone-navbar-toggle" data-toggle="collapse"
                 data-target="#portal-globalnav-collapse">
-          <span class="sr-only">Toggle navigation</span>
+          <span class="sr-only" i18n:translate="toggle_navigation">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>

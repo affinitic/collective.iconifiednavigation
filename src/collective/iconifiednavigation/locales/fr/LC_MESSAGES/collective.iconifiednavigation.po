@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-06-20 12:58+0000\n"
+"POT-Creation-Date: 2018-09-21 11:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,4 +45,14 @@ msgstr ""
 
 #: ../configure.zcml:40
 msgid "collective.iconifiednavigation (uninstall)"
+msgstr ""
+
+#. Default: "Navigation"
+#: ../viewlets/iconifiednavigation-sections.pt:8
+msgid "heading_sections"
+msgstr ""
+
+#. Default: "Toggle navigation"
+#: ../viewlets/iconifiednavigation-sections.pt:14
+msgid "toggle_navigation"
 msgstr ""
