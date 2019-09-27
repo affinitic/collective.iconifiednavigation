@@ -11,6 +11,15 @@
       layer="collective.iconifiednavigation.interfaces.ICollectiveIconifiednavigationLayer"
       />
 
+  <browser:page
+      for="*"
+      name="portal_tabs_view"
+      class=".navigation.CatalogNavigationTabsHandlingLinks"
+      permission="zope.Public"
+      allowed_attributes="topLevelTabs"
+      layer="collective.iconifiednavigation.interfaces.ICollectiveIconifiednavigationLayer"
+      />
+
   <!-- Publish static files -->
   <plone:static
       name="collective.iconifiednavigation"

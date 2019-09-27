@@ -5,7 +5,8 @@ Changelog
 1.0a3 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Handle links (Link content type) in navigation
+  [laulaz]
 
 
 1.0a2 (2018-09-20)

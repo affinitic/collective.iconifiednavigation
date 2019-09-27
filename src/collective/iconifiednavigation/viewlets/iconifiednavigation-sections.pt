@@ -31,7 +31,7 @@
                                      title tab/description|nothing;
                                      target tab/link_target|nothing;">
                   <div class="tab-img">
-                      <tal:image tal:define="image python: view.get_image(tab['url'])" tal:condition="image">
+                      <tal:image tal:define="image python: view.get_image(tab['object_url'])" tal:condition="image">
                       <tal:svg tal:condition="python: image['ext'] == '.svg'" tal:content="structure image/data">
                       svg
                       </tal:svg>
