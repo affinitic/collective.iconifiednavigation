@@ -15,7 +15,7 @@ long_description = '\n\n'.join([
 setup(
     name='collective.iconifiednavigation',
     version='1.0a4.dev0',
-    description="An add-on for Plone",
+    description="Add content icons in portal_tabs menu",
     long_description=long_description,
     # Get more from https://pypi.python.org/pypi?%3Aaction=list_classifiers
     classifiers=[
@@ -30,7 +30,7 @@ setup(
     ],
     keywords='Python Plone',
     author='Sebastien Sirtoli',
-    author_email='sebastien.sirtoli@affinitic.be',
+    author_email='info@affinitic.be',
     url='https://pypi.python.org/pypi/collective.iconifiednavigation',
     license='GPL version 2',
     packages=find_packages('src', exclude=['ez_setup']),
