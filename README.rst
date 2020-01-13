@@ -14,6 +14,7 @@ Features
 
 - The behavior can be defined on any content type
 - SVG are specifically handled
+- Links can open in new tabs (via external_links_open_new_window setting)
 
 
 Translations
