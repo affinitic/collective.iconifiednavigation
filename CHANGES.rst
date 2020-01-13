@@ -2,8 +2,8 @@ Changelog
 =========
 
 
-1.0a4 (unreleased)
-------------------
+1.0 (2020-01-13)
+----------------
 
 - Handle external_links_open_new_window setting for Link content type
   This allows to open links to external sites in a new tabs
