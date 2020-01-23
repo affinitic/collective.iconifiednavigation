@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-1.0.1 (unreleased)
+1.0.1 (2020-01-23)
 ------------------
 
 - Let Plone mark_special_links pattern do the work for opening links to external
