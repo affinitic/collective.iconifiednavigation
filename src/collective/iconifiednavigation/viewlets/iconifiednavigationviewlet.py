@@ -39,10 +39,3 @@ class IconifiedNavigationViewlet(GlobalSectionsViewlet):
         img_details["ext"] = ext
         img_details["data"] = icon.data
         return img_details
-
-    def get_link_target(self, obj, portal_tab):
-        if not obj or obj.portal_type != "Link":
-            return None
-        tab_target = portal_tab.get("link_target") or ""
-        open_in_new_window = api.portal.get_registry_record("plone.external_links_open_new_window")
-        return open_in_new_window and "_blank" or tab_target

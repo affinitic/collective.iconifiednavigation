@@ -29,8 +29,7 @@
               <a href=""
                  tal:define="obj python: view.get_object(tab['object_url']);"
                  tal:attributes="href tab/url;
-                                 title tab/description|nothing;
-                                 target python: view.get_link_target(obj, tab);">
+                                 title tab/description|nothing;">
                   <div class="tab-img">
                       <tal:image tal:define="image python: view.get_image_infos(obj)" tal:condition="image">
                       <tal:svg tal:condition="python: image['ext'] == '.svg'" tal:content="structure image/data">

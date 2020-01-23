@@ -5,7 +5,9 @@ Changelog
 1.0.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Let Plone mark_special_links pattern do the work for opening links to external
+  sites in new tabs
+  [laulaz]
 
 
 1.0 (2020-01-13)
